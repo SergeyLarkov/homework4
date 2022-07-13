@@ -48,7 +48,7 @@ class MainKtTest {
     @Test
     fun test_comissionCount_payInMonth_def_mir() {
         val cardType = "Mir"
-        val expected = 3500
+        val expected = 13500
 
         val result = comissionCount(100, cardType)
 
